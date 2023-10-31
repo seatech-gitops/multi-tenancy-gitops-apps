@@ -13,8 +13,8 @@ spec:
   project: applications
   source:
     path: apic/environments/single-cluster/config
-    repoURL: https://gitea-tools.apps.653f41941078770017111eb7.cloud.techzone.ibm.com/tzgitops/multi-tenancy-gitops-apps.git
-    targetRevision: master
+    repoURL: ${GIT_BASEURL}/${GIT_ORG}/${GIT_GITOPS_APPLICATIONS}
+    targetRevision: ${GIT_GITOPS_APPLICATIONS_BRANCH}
   syncPolicy:
     automated:
       prune: true
