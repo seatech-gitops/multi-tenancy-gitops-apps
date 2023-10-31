@@ -12,7 +12,7 @@ if [ -z ${GIT_ORG} ]; then echo "Please set GIT_ORG when running script, optiona
 
 GIT_BRANCH=${GIT_BRANCH:-master}
 # GIT_BASEURL=${GIT_BASEURL:-https://github.com}
-GIT_BASEURL=${GIT_BASEURL:-https://gitea-tools.apps.653f41941078770017111eb7.cloud.techzone.ibm.com}
+GIT_BASEURL=${GIT_BASEURL:-https://toolkit:toolkit@gitea-tools.apps.653f41941078770017111eb7.cloud.techzone.ibm.com}
 GIT_GITOPS=${GIT_GITOPS:-multi-tenancy-gitops.git}
 GIT_GITOPS_BRANCH=${GIT_GITOPS_BRANCH:-${GIT_BRANCH}}
 GIT_GITOPS_INFRA=${GIT_GITOPS_INFRA:-multi-tenancy-gitops-infra.git}
