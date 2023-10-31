@@ -13,7 +13,7 @@ spec:
   project: applications
   source:
     path: es/environments/dev/event-streams/
-    repoURL: https://toolkit:toolkit@gitea-tools.apps.653f41941078770017111eb7.cloud.techzone.ibm.com/tzgitops/multi-tenancy-gitops-apps.git
+    repoURL: https://github.com/seatech-gitops/multi-tenancy-gitops-apps.git
     targetRevision: master
   syncPolicy:
     automated:

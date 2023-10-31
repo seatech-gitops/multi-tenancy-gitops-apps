@@ -42,7 +42,7 @@ patches:
   patch: |-
     - op: add
       path: /spec/source/repoURL
-      value: https://toolkit:toolkit@gitea-tools.apps.653f41941078770017111eb7.cloud.techzone.ibm.com/tzgitops/multi-tenancy-gitops-services.git
+      value: https://github.com/seatech-gitops/multi-tenancy-gitops-services.git
     - op: add
       path: /spec/source/targetRevision
       value: master
