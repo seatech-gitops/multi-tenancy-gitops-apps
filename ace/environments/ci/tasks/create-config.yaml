@@ -36,9 +36,9 @@ spec:
     - name: branch_name
       type: string
   results:
-    - description: ""
-      name: configurations
-      
+    - name: configurations
+      description: ""
+
   steps:
     - name: setup-configuration
       env:
