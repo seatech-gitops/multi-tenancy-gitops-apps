@@ -13,7 +13,7 @@ spec:
   project: applications
   source:
     path: mq/environments/tools/
-    repoURL: https://github.com/cloud-native-toolkit-demos/multi-tenancy-gitops-apps.git
+    repoURL: https://toolkit:toolkit@gitea-tools.apps.653f41941078770017111eb7.cloud.techzone.ibm.com/tzgitops/multi-tenancy-gitops-apps.git
     targetRevision: master
   syncPolicy:
     automated:
