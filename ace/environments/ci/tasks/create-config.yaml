@@ -37,7 +37,7 @@ spec:
       type: string
   results:
     - name: configurations
-      description: ""
+      type: string
 
   steps:
     - name: setup-configuration
