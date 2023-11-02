@@ -14,12 +14,12 @@ spec:
   service:
     endpointType: http
   useCommonServices: true
-  version: 12.0
+  version: '12.0'
   adminServerSecure: true
   pod:
     containers:
       runtime:
-        image: image-registry.openshift-image-registry.svc:5000/ci/create-customer-details-rest:404e0369007f5fc240846685670b993c7f8252d0
+        image: image-registry.openshift-image-registry.svc:5000/ci/create-customer-details-rest:9a2e7c102d1bb0e3a1998eaa7030f2102d013f21
         imagePullPolicy: Always
   configurations:
     - create-customer-serverconf.yaml
