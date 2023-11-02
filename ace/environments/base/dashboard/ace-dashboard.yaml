@@ -9,4 +9,8 @@ spec:
     use: CloudPakForIntegrationNonProduction
   useCommonServices: true
   version: '12.0'
+  storage:
+    type: persistent-claim
+    size: 5Gi
+    class: ocs-storagecluster-cephfs
   replicas: 1
