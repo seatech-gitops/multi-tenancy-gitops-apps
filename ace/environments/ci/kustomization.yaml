@@ -62,3 +62,4 @@ resources:
 - triggertemplates/ace-integration-server.yaml
 
 - certificates/prod-ref-ss-ca.yaml
+- certificates/prod-ref-devops.yaml
