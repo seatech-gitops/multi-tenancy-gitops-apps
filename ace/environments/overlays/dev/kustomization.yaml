@@ -3,5 +3,6 @@ resources:
 #  - hooks/post-sync.yaml
 #  - dashboard/ace-dashboard.yaml
 #  - ibm-entitlement-key/ibm-entitled-key-secret.yaml
+ - secrets/ibm-entitlement-key-secret.yaml 
 # patchesStrategicMerge:
   # - integrationServer/IntegrationServerPatch.yaml
