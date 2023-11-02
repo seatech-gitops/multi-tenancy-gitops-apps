@@ -3,6 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: ace-integration-server
 spec:
+  storageClassName: ocs-storagecluster-cephfs
   accessModes:
     - ReadWriteMany
   resources:
