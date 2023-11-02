@@ -9,6 +9,4 @@ spec:
     use: CloudPakForIntegrationNonProduction
   useCommonServices: true
   version: '12.0'
-  storage:
-    type: ephemeral
   replicas: 1
