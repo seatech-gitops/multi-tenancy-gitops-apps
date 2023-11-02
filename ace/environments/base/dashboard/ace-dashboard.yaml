@@ -8,7 +8,7 @@ spec:
     license: L-APEH-C9NCK6
     use: CloudPakForIntegrationNonProduction
   useCommonServices: true
-  version: '12.0'
+  version: 12.0.4.0-r2
   storage:
     type: ephemeral
   replicas: 1
